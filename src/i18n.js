@@ -1,3 +1,4 @@
+
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
@@ -30,6 +31,13 @@ i18n
           playerA: "Player A",
           playerB: "Player B",
           playerC: "Player C",
+          playerD: "Player D",
+          playerE: "Player E",
+          playerF: "Player F",
+          playerG: "Player G",
+          playerH: "Player H",
+          playerI: "Player I",
+          playerJ: "Player J",
         },
       },
       fr: {
@@ -50,6 +58,13 @@ i18n
           playerA: "Joueur A",
           playerB: "Joueur B",
           playerC: "Joueur C",
+          playerD: "Joueur D",
+          playerE: "Joueur E",
+          playerF: "Joueur F",
+          playerG: "Joueur G",
+          playerH: "Joueur H",
+          playerI: "Joueur I",
+          playerJ: "Joueur J",
         },
       },
     },

@@ -1,4 +1,3 @@
-
 export const tennisData = {
   players: [
     {
@@ -35,6 +34,90 @@ export const tennisData = {
         { year: 2022, rank: 15 },
         { year: 2023, rank: 12 },
         { year: 2024, rank: 10 },
+      ],
+    },
+    {
+      id: 4,
+      name: "Player D",
+      stats: { wins: 55, losses: 5 },
+      rankingHistory: [
+        { year: 2020, rank: 8 },
+        { year: 2021, rank: 6 },
+        { year: 2022, rank: 4 },
+        { year: 2023, rank: 2 },
+        { year: 2024, rank: 2 },
+      ],
+    },
+    {
+      id: 5,
+      name: "Player E",
+      stats: { wins: 25, losses: 25 },
+      rankingHistory: [
+        { year: 2020, rank: 50 },
+        { year: 2021, rank: 40 },
+        { year: 2022, rank: 30 },
+        { year: 2023, rank: 25 },
+        { year: 2024, rank: 22 },
+      ],
+    },
+    {
+      id: 6,
+      name: "Player F",
+      stats: { wins: 42, losses: 12 },
+      rankingHistory: [
+        { year: 2020, rank: 12 },
+        { year: 2021, rank: 9 },
+        { year: 2022, rank: 7 },
+        { year: 2023, rank: 6 },
+        { year: 2024, rank: 5 },
+      ],
+    },
+    {
+      id: 7,
+      name: "Player G",
+      stats: { wins: 33, losses: 18 },
+      rankingHistory: [
+        { year: 2020, rank: 30 },
+        { year: 2021, rank: 22 },
+        { year: 2022, rank: 18 },
+        { year: 2023, rank: 14 },
+        { year: 2024, rank: 11 },
+      ],
+    },
+    {
+      id: 8,
+      name: "Player H",
+      stats: { wins: 28, losses: 22 },
+      rankingHistory: [
+        { year: 2020, rank: 40 },
+        { year: 2021, rank: 35 },
+        { year: 2022, rank: 28 },
+        { year: 2023, rank: 24 },
+        { year: 2024, rank: 20 },
+      ],
+    },
+    {
+      id: 9,
+      name: "Player I",
+      stats: { wins: 50, losses: 8 },
+      rankingHistory: [
+        { year: 2020, rank: 10 },
+        { year: 2021, rank: 7 },
+        { year: 2022, rank: 5 },
+        { year: 2023, rank: 3 },
+        { year: 2024, rank: 3 },
+      ],
+    },
+    {
+      id: 10,
+      name: "Player J",
+      stats: { wins: 22, losses: 28 },
+      rankingHistory: [
+        { year: 2020, rank: 60 },
+        { year: 2021, rank: 55 },
+        { year: 2022, rank: 48 },
+        { year: 2023, rank: 42 },
+        { year: 2024, rank: 38 },
       ],
     },
   ],

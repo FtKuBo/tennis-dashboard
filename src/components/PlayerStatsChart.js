@@ -1,10 +1,17 @@
-
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
-const PlayerStatsChart = ({ data }) => {
+const PlayerStatsChart = ({ data, playerName }) => {
   const { t } = useTranslation();
+
+  const chartData = [
+    {
+      name: playerName,
+      wins: data.wins,
+      losses: data.losses,
+    },
+  ];
 
   return (
     <div className="chart-container">
@@ -12,7 +19,7 @@ const PlayerStatsChart = ({ data }) => {
       <BarChart
         width={500}
         height={300}
-        data={[data]}
+        data={chartData}
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
       >
         <CartesianGrid strokeDasharray="3 3" />

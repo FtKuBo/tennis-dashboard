@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { tennisData } from './data/tennisData';
@@ -77,13 +76,13 @@ function App() {
             )}
           </div>
           <div>
-            <button onClick={toggleTable}>
+            <button onClick={toggleTable} className="toggle-table-btn">
               {showTable ? t('hideTable') : t('showTable')}
             </button>
           </div>
         </div>
         <div className="charts">
-          <PlayerStatsChart data={selectedPlayer.stats} />
+          <PlayerStatsChart data={selectedPlayer.stats} playerName={t(selectedPlayer.name)} />
           <div className="ranking-section">
             <RankingHistoryChart
               player1Data={selectedPlayer.rankingHistory}
